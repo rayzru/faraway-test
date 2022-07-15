@@ -19,3 +19,5 @@ Smooth and easy
 ```
 docker-compose up
 ```
+
+[Open Client](http://localhost:3000)
