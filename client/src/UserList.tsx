@@ -9,7 +9,6 @@ interface Props {
 }
 
 const UserList: React.FC<Props> = ({ users = [], onUserClick, selectedId }) => {
-  console.log('USERS::', users);
   const handleClick = (u: User) => {
     onUserClick && onUserClick(u);
   };
