@@ -11,7 +11,7 @@ export class API {
   };
 
   constructor(host?: string) {
-    this._api = host || '0.0.0.0:8010';
+    this._api = host || `${process.env.NEXT_PUBLIC_API_ENDPOINT || 'api'}:8010;
   }
 
   get host() {
